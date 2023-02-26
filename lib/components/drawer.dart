@@ -46,6 +46,11 @@ class _DrawerComponentState extends State<DrawerComponent> {
             path: '/gallery',
             icon: Icons.image,
           ),
+          DrawerItem(
+            title: 'Contact Me',
+            path: '/contact',
+            icon: Icons.contact_mail,
+          ),
         ],
       ),
     );

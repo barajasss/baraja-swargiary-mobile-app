@@ -5,6 +5,7 @@ import './screens/FriendListScreen.dart';
 import './screens/ImageGalleryScreen.dart';
 import './screens/LoveLifeScreen.dart';
 import './screens/ProfessionalLifeScreen.dart';
+import './screens/ContactScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         '/friend-list': (context) => FriendListScreen(),
         '/love-life': (context) => LoveLifeScreen(),
         '/gallery': (context) => ImageGalleryScreen(),
+        '/contact': (context) => ContactScreen(),
       },
       theme: ThemeData(
         fontFamily: 'courgette',
