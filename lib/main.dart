@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import './components/drawer.dart';
-import './screens/HomeScreen.dart';
 import './screens/AboutScreen.dart';
 import './screens/FriendListScreen.dart';
 import './screens/ImageGalleryScreen.dart';
@@ -21,8 +20,7 @@ class MyApp extends StatelessWidget {
       title: 'Baraja Swargiary',
       initialRoute: '/',
       routes: {
-        '/': (context) => HomeScreen(),
-        '/about': (context) => AboutScreen(),
+        '/': (context) => AboutScreen(),
         '/professional-life': (context) => ProfessionalLifeScreen(),
         '/friend-list': (context) => FriendListScreen(),
         '/love-life': (context) => LoveLifeScreen(),

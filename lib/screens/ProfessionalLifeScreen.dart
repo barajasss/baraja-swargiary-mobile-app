@@ -12,7 +12,15 @@ class _ProfessionalLifeScreenState extends State<ProfessionalLifeScreen> {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      child: Text('helo world professional'),
+      child: Column(
+        children: [
+          Image.asset('assets/images/baraja coding academy.jpeg'),
+          SizedBox(height: 15),
+          Text(
+              'I work as a remote web developer from home. I graduated from Cotton University in 2021 and I passed 10th from Saint Francis D\'Assisi Senior Secondary School'
+              '\n\nI also do freelancing occassionally and I teach students at Baraja Coding Academy which I founded in 2022.'),
+        ],
+      ),
     );
   }
 }

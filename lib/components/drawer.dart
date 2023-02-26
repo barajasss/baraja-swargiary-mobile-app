@@ -25,7 +25,7 @@ class _DrawerComponentState extends State<DrawerComponent> {
               ),
             ),
           ),
-          DrawerItem(title: 'About Baraja Swargiary', path: '/about'),
+          DrawerItem(title: 'About Baraja Swargiary', path: '/'),
           DrawerItem(
             title: 'My Professional Life',
             path: '/professional-life',
